@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menú</title>		
+	<link rel="stylesheet" href="menu_estilo.css">
+
+</head>
+<body>
+	<h1 class="nomb_rest">FiesTacos</h1>
+	<nav>
+		<ul class="menu-horizontal">
+			<li><a href="index.html">Sobre nosotros</a></li>
+			<li><a href="#">Menú de comida</a>
+             <ul class="menu-vertical">
+             	<li><a href="#plato">Platos principales</a></li>
+             	<li><a href="#bebida">Bebidas</a></li>
+             	<li><a href="#postre">Postres</a></li>
+             	<li><a href="#paquete">Paquetes</a></li>
+             </ul>
+			</li>
+			<li><a href="index.html">Galeria</a></li>
+			<li><a href="promociones.html">Promociones</a><ul class="menu-vertical">
+					<li><a href="promociones.html">Lunes & Martes</a></li>
+					<li><a href="promociones.html">Miercoles & Jueves</a></li>
+					<li><a href="promociones.html">Viernes</a></li>
+					<li><a href="promociones.html">Sabado</a></li>
+					<li><a href="promociones.html">Domingo</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+
+<div class="platos_p" id="plato">
+	<img src="img/menu1.png" alt="">
+	<img src="img/menu2.png" alt="">
+	<img src="img/menu5.png" alt="">
+</div>
+
+<div class="bebidas" id="bebida">
+	<img src="img/menu3.png" alt="">
+	<img src="img/menu4.png" alt="">
+</div>
+
+<div class="postres" id="postre">
+<img src="img/menu6.png">
+</div>
+
+<div class="paquetes" id="paquete">
+	<img src="img/menu7.png" alt="">
+</div>
+
+<footer class="foot">
+	<p class="foot_p">Telefono de contacto: 5545137840</p>
+	<p class="foot_p">Dirección: Calle Cerro de la Silla, Mz 3, Lt72. Colonia Rancho del Taco</p>
+	<p class="foot_p">Contacto: Oscar De La Rosa</p>
+	<p class="foot_p">FiesTacos&copy</p>
+</footer>
+
+
+</body>
+</html>

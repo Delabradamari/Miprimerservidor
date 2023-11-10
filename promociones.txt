@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Promociones</title>
+	<link rel="stylesheet" href="promociones_estilo.css">
+</head>
+<body>
+<h1 class="nomb_rest">FiesTacos</h1>
+	<nav>
+		<ul class="menu-horizontal">
+			<li><a href="index.html">Sobre nosotros</a></li>
+			<li><a href="menu.html">Menú de comida</a>
+             <ul class="menu-vertical">
+             	<li><a href="menu.html">Platos principales</a></li>
+             	<li><a href="menu.html">Bebidas</a></li>
+             	<li><a href="menu.html">Postres</a></li>
+             	<li><a href="menu.html">Paquetes</a></li>
+             </ul>
+			</li>
+			<li><a href="index.html">Galeria</a></li>
+			<li><a href="#promo">Promociones</a><ul class="menu-vertical">
+					<li><a href="#promo1">Lunes & Martes</a></li>
+					<li><a href="#promo2">Miercoles & Jueves</a></li>
+					<li><a href="#promo3">Viernes</a></li>
+					<li><a href="#promo4">Sabado</a></li>
+					<li><a href="#promo5">Domingo</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+
+	<div class="fondo_p">
+		<h1 id="promo">Promociones</h1>
+	</div>
+
+	<section class="seccion_f">
+		<h1 class="titulos">Promociones de la semana</h1>
+		<p class="parrafos">Dentro de nuestras promociones semanales contamos con platillos especiales a parte del menú principal que solamente se prepararan dependiendo del día de la semana.</p>
+	</section>
+	<section class="seccion">
+		<h2 id="promo1">Lunes & Martes</h2>
+	</section>
+
+	<section class="seccion_f">
+		<h1 class="titulos">Inicia bien la semana con...</h1>
+		<p class="parrafos">Una rica y nutritiva orden de tacos de pescado acompañado papas a la francesa, un excelente pico de gallo y crema al gusto.</p>
+	</section>
+	<section class="seccion_2">
+		<h2 id="promo2">Miercoles & Jueves coloridos</h2>
+	</section>
+	
+	<section class="seccion_f">
+		<h1 class="titulos">Para la aburrida mitad de semana</h1>
+		<p class="parrafos">Una o varias ordenes de tacos de carne adobada y/o al pastor con tortillas de maíz de colores 100% natural, esta promoción incluye un litro de agua de jamaica u horchata y la orden puede ir toda de pastor, toda de adobada o combinados. Cada orden cuenta con 3 tacos y una tortilla de un color diferente para cada taco.</p>
+	</section>
+	<section class="seccion_3">
+		<h2 id="promo3">Viernes de pastor</h2>
+	</section>
+	
+	<section class="seccion_f">
+		<h1 class="titulos">Llego el tan ansiado viernes para compartir con amigos!</h1> 
+		<p class="parrafos">Esta promoción es la ideal para ti si vas vas saliendo de trabajar y quieres pasar un buen rato con tus amigos, tu pareja o tu familia ya que todos los tacos al pastor estarán al 2x1.</p>
+	</section>
+	<section class="seccion_4">
+		<h2 id="promo4">Sabado</h2>
+	</section>
+	
+	<section class="seccion_f">
+		<h1 class="titulos">Por si tienes resaca...</h1>
+		<p class="parrafos">Acompañanos a probar nuestra rica selección de carnitas acompañadas de un rico guacamole que hará que no sientas la fiesta del día anterior.</p>
+	</section>
+	<section class="seccion_5">
+		<h2 id="promo5">Domingo</h2>
+	</section>
+
+	<section >
+		<h1 class="titulos">Y para el día más familiar de la semana tenemos...</h1>
+		<p class="parrafo1">La riquisíma barbacoa estilo Hidalgo para toda la familia, esta promoción incluye consome gratis, un refresco de 3 LT a tu elección y una salsa de chile morita hecha también en Hidalgo.</p>
+	</section>
+	<section class="seccion_6">
+
+<footer class="foot">
+	<p class="foot_p">Telefono de contacto: 5545137840</p>
+	<p class="foot_p">Dirección: Calle Cerro de la Silla, Mz 3, Lt72. Colonia Rancho del Taco</p>
+	<p class="foot_p">Contacto: Oscar De La Rosa</p>
+	<p class="foot_p">FiesTacos&copy</p>
+</footer>
+
+</body>
+</html>
